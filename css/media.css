@@ -1,0 +1,136 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+   
+}
+
+
+/* 1421 - 1600 px */
+@media screen and (max-width: 1600px) {
+   
+}
+
+
+/* 1368 - 1420px */
+@media screen and (max-width: 1420px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .about > .container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .about-first-row p {
+        font-size: 19pt;
+    }
+    .text-logo h2 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20pt;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .info-follow {
+        margin-top: 3%;
+    }
+    .info-services p {
+        font-size: 19pt;
+    }
+    .info-follow p {
+        font-size: 19pt;
+    }
+    .contact-wrapper p {
+        font-size: 19pt;
+    }
+    .form-inputs {
+        font-size: 19pt;
+    }
+    .footer h2 {
+        font-size: 17pt;
+    }
+}
+
+
+/* 769  - 960 px */
+@media screen and (max-width: 960px) {
+    .info-services {
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    .info-follow {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-services img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    input {
+        width: 80%;
+    }
+    .navigation ul {
+        padding: 0;
+    }
+}
+
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .header-title {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .text-logo {
+        margin-top: 2%;
+    }
+    .text-logo h2 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16pt;
+    }
+    .container-nav {
+        top: 0;
+    }
+    .info-services p {
+        text-align: center;
+    }
+    .form-inputs {
+        font-size: 12pt;
+    }
+}
+
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .info-services h2 {
+        text-align: center;
+    }
+    .about-first-column img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    .contact-wrapper{
+        width: 90%;
+    }
+}
